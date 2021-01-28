@@ -1,4 +1,5 @@
 import logo from './Assets/Logovideolab.png'
+import instalogo from './Assets/instagram-logo.png'
 import './App.css';
 
 function App() {
@@ -18,7 +19,13 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Nosso Instagram
+          <h4>Nosso site ainda está em construção, por favor siga-nos no Instagram 
+          <br/>
+          <br/>
+          <img className="instalogo" src={instalogo} alt="Instagram logo"/>
+          <br/>
+          @videolabfilmes
+          </h4>
         </a>
 
       </header>
