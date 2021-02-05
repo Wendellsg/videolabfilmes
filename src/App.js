@@ -1,5 +1,7 @@
 import logo from './Assets/Logovideolab.png'
 import instalogo from './Assets/instagram-logo.png'
+import WhatsLogo from './Assets/whatsapp.png'
+import EmailLogo from './Assets/email.png'
 import './App.css';
 
 function App() {
@@ -8,14 +10,14 @@ function App() {
 
       <header className="App-header">
         <div className="Logo-home">
-          <img src={logo} alt="VIDEOLAB FILMES"/>
+          <a href="videolabfilmes.com.br"><img src={logo} alt="VIDEOLAB FILMES"/></a>
         </div>
         <div className="App-Menu">
           <li>
-            <ul>SOBRE NÓS</ul>
-            <ul>PORTIFÓLIO</ul>
-            <ul>CLIENTES</ul>
-            <ul>CONTATO</ul>
+            <ul><a href="#">PORTIFÓLIO</a></ul>
+            <ul><a href="#">CLIENTES</a></ul>
+            <ul><a href="#">SOBRE NÓS</a></ul>
+            <ul><a href="#">CONTATO</a></ul>
           </li>
         </div>
       </header>
@@ -24,7 +26,10 @@ function App() {
           <h1>DESTAQUE SEU NEGÓCIO NAS REDES SOCIAIS COM A VIDEOLAB FILMES</h1>
         </div>
         <div className="Home-video">
-          
+          <div>
+          <iframe src="https://player.vimeo.com/video/509047860?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" width="650" height="650" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen title="Fa&amp;ccedil;a v&amp;iacute;deo!"></iframe>
+          </div>
+        
         </div>
       </article>
       <footer className="App-footer">
@@ -38,9 +43,10 @@ function App() {
             <h2>CONTATE-NOS VIA</h2>
             <div>
               <li>
-                <ul><img src={instalogo} alt="insta"/></ul>
-                <ul>WHATS</ul>
-                <ul>EMAIL</ul>
+                <ul><a href="https://www.instagram.com/videolabfilmes/"><img src={instalogo} alt="insta"/></a></ul>
+                <ul><a href="https://api.whatsapp.com/send?phone=5511981050758&text=Ol%C3%A1%2C%20conheci%20voc%C3%AAs%20pelo%20site!"><img src={WhatsLogo} alt="insta"/></a></ul>
+                <ul><a href="mailto:contato@videolabfilmes.com.br"><img src={EmailLogo} alt="insta"/></a></ul>
+
               </li>
             </div>
         </div>

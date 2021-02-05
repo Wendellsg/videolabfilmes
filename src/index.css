@@ -9,6 +9,13 @@ html{
   background-repeat: no-repeat;
 }
 
+a{
+  text-decoration: none;
+
+}
+
+
+
 body {
 
   
@@ -21,6 +28,8 @@ body {
   display: flex;
   text-align: center;
   justify-content: center;
+
+
   
 }
 

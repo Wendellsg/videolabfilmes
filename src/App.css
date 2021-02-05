@@ -1,9 +1,7 @@
 .App {
 
   width: 1243px;
-  height: 1068px;
   text-align: center;
-  border: 1px dotted black;
  
 }
 
@@ -12,16 +10,15 @@
 .App-header {
   width: 1243px;
   height: 127px;
-  border: 1px dotted red;
   display: flex;
   justify-content: space-between;
+  margin-top: 10px;
 
 }
 
 .App-Menu{
   width: 520px;
   height: 127px;
-  border: 1px dotted red;
   display: flex;
   justify-content: space-around;
   color: #E3E3E3;
@@ -43,11 +40,22 @@
 .App-Menu li ul{
   margin: 10px
 }
+.App-Menu li ul a{
+  text-decoration: none;
+}
+
+.App-Menu li ul :hover{
+  color: #7ab5b4be;
+}
+
+.App-Menu li ul a:visited{
+  color:  #E3E3E3;
+}
+
 
 .Logo-home{
   width: 119px;
   height: 127px;
-  border: 1px dotted red;
 }
 
 
@@ -55,9 +63,9 @@
   width: 119px;
 }
 .App-article {
+  margin-top: 20px;
   width: 1243px;
   height:779px;
-  border: 1px dotted red;
   display: flex;
   justify-content: space-between;
   
@@ -72,25 +80,29 @@
   font-size: 30px;
   line-height: 136px;
   text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.61);
+  
 }
 
 .Home-video{
-  width: 703px;
-  height: 672px;
+  width: 700px;
+  height: 700px;
   left: 633px;
   top: 213px;
+  border:  #E3E3E3 3px;
 
   background: #E3E3E3;
   box-shadow: 7px 8px 4px rgba(0, 0, 0, 0.25);
   border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .App-footer{
   width: 1243px;
-  height: 157px;
-  border: 1px dotted red;
   display: flex;
   justify-content: space-between;
+  margin: 10px 0px;
 
 
 }
@@ -99,12 +111,10 @@
   text-align: left;
   color: #E3E3E3;
   text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.61);
-  border: 1px dotted red;
 
 
 }
 .Sociallinks{
-  border: 1px dotted red;
   text-align: right;
   color: #E3E3E3;
   text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.61);
@@ -119,13 +129,14 @@
 
 .Sociallinks li ul img{
   width: 40px;
+  margin-top: 5px;
 }
 
 .App-link {
-  color: #ffffff;
-  font-size: 15px;
+
+
   text-decoration: none;
-  width: 70%;
+
 }
 
 
@@ -142,6 +153,3 @@
 }
 
 
-.instalogo{
-  width: 50px;
-}
