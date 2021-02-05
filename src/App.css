@@ -1,24 +1,124 @@
 .App {
-  display: flex;
-  text-align: center;
-  justify-content: center;
-  overflow: auto;
- 
 
+  width: 1243px;
+  height: 1068px;
+  text-align: center;
+  border: 1px dotted black;
+ 
 }
 
 
 
 .App-header {
-  z-index: 2;
-  min-width: 100vw;
-  min-height: 100vh;
+  width: 1243px;
+  height: 127px;
+  border: 1px dotted red;
   display: flex;
-  flex-direction: column;
+  justify-content: space-between;
+
+}
+
+.App-Menu{
+  width: 520px;
+  height: 127px;
+  border: 1px dotted red;
+  display: flex;
+  justify-content: space-around;
+  color: #E3E3E3;
+  text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.61);
+  align-items: right;
+
+
+}
+.App-Menu li{
+  
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  
+
+}
+
+.App-Menu li ul{
+  margin: 10px
+}
+
+.Logo-home{
+  width: 119px;
+  height: 127px;
+  border: 1px dotted red;
+}
+
+
+.Logo-home img{
+  width: 119px;
+}
+.App-article {
+  width: 1243px;
+  height:779px;
+  border: 1px dotted red;
+  display: flex;
+  justify-content: space-between;
+  
+
+}
+
+.Title{
+  width: 500px; ;
+  color: #E3E3E3;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 136px;
+  text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.61);
+}
+
+.Home-video{
+  width: 703px;
+  height: 672px;
+  left: 633px;
+  top: 213px;
+
+  background: #E3E3E3;
+  box-shadow: 7px 8px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 4px;
+}
+
+.App-footer{
+  width: 1243px;
+  height: 157px;
+  border: 1px dotted red;
+  display: flex;
+  justify-content: space-between;
+
+
+}
+
+.Infos{
+  text-align: left;
+  color: #E3E3E3;
+  text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.61);
+  border: 1px dotted red;
+
+
+}
+.Sociallinks{
+  border: 1px dotted red;
+  text-align: right;
+  color: #E3E3E3;
+  text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.61);
+}
+
+.Sociallinks li{
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.Sociallinks li ul img{
+  width: 40px;
 }
 
 .App-link {
@@ -41,22 +141,6 @@
 
 }
 
-
-.square{
-  z-index: 0;
-  position: absolute;
-  top: 50vh;
-  left: 20vh;
-  background: #002340;
-  background-attachment: scroll;
-
-  height: 700px;
-  width: 700px;
-  transform: 
-    rotateZ( 143deg )
-    ;
-    
-}
 
 .instalogo{
   width: 50px;
