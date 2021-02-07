@@ -1,0 +1,52 @@
+
+.About-Us-Container{
+    margin-top: 30px;
+    width: 100%;
+    max-width: 980px;
+    
+}
+
+
+.our-story{
+    width: 100%;
+    height: 320px;
+    max-width: 980px;
+    background-repeat: no-repeat;
+    background-position-y: bottom;
+    background-size: 100% auto;
+    background-image: url('../../Assets/Scene_Prancheta.png');
+    display: flex;
+    align-items: center;
+    justify-content:flex-start;
+    flex-direction: column;
+}
+
+.our-story h1{
+    max-width: 50%;
+    font-family: 'Lobster', cursive;
+    font-weight: 500;
+    font-size: 2rem;
+    text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.61);
+}
+
+.our-story h2{
+    max-width: 50%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    max-width: 70%;
+    font-family: 'open-sans', sans-serif;
+    font-weight: 600;
+    font-size: 1rem;
+    text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.61);
+}
+
+
+@media (min-width: 700px){
+    .our-story{
+        height: 450px;
+    }
+    .our-story h2{
+        font-size: 1.5rem
+    }
+
+}

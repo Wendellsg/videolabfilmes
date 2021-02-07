@@ -1,4 +1,5 @@
 import './styles.css'
+import AboutUs from '../Aboutus/AboutUs'
 
 function Home(){
     return(
@@ -10,6 +11,8 @@ function Home(){
                     <h1>Destaque seu negócio nas redes sociais com a VideoLab Filmes</h1>
                     <a href="https://api.whatsapp.com/send?phone=5511981050758&text=Ol%C3%A1%2C%20conheci%20voc%C3%AAs%20pelo%20site!"><button>ME MOSTRE COMO</button></a>
                 </div>
+                <AboutUs/>
+
         </article>
     )   
 }
