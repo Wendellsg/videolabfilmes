@@ -5,11 +5,18 @@ import {useState} from 'react'
 function AppHeader(){
 
     const [show, setShow] = useState(true);
+    
 
    function handleClick(){
+       
+        document.body.style.overflow = show? "hidden": "initial"
         setShow(!show)
         
+
+        
     };
+
+    
 
     return(
         <header className="Header-container">
