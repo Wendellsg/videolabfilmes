@@ -8,9 +8,9 @@ function AppHeader(){
     
 
    function handleClick(){
-       
-        document.body.style.overflow = show? "hidden": "initial"
         setShow(!show)
+        document.body.style.overflow = show? "hidden": "initial"
+        
         
 
         
@@ -23,9 +23,9 @@ function AppHeader(){
             <div className="Applogo">
                 <a href="https://videolabfilmes.com.br/"><img src={logo} alt="VideoLab Filmes"/></a>
             </div>
-            <div className={`App-nav ${show? '':'on' }`}onClick={handleClick}>
+            <div className={`App-nav ${show? '':'on' }`} onClick={handleClick}>
 
-                <div className="menu-toggle">
+                <div className="menu-toggle" onClick={handleClick}>
                     <div className="one"></div>
                     <div className="two"></div>
                     <div className="three"></div>
