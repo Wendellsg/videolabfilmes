@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Jomhuria&family=Lobster&display=swap');
+
+.Article-container{
+    width: 100%;
+    max-width: 980px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    color: #e3e3e3;
+    margin: 20px;
+
+}
+
+
+.Home-video{
+margin-top: 30px;
+width: fit-content;
+border: #e3e3e3 20px solid ;
+border-radius: 4px;
+box-shadow: 7px 8px 4px rgba(0, 0, 0, 0.25);
+
+}
+
+.Link-video{
+    width: 700px;
+    height: 700px;
+}
+
+.Call-to-action{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.Call-to-action h1{
+    font-family: 'Lobster', cursive;
+    font-weight: 500;
+    font-size: 3rem;
+    text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.61);
+}
+
+
+.Call-to-action button{
+    font-family: 'open-sans', sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    margin-top: 20px;
+    width: 200px;
+    height: 50px;
+    border-radius: 4px;
+    background-color: #002340;
+    border-style: none;
+    color: #e3e3e3;
+    box-shadow: 7px 8px 4px rgba(0, 0, 0, 0.25);
+
+}
+
+.Call-to-action button:hover{
+    background-color: #012f55;
+}
+
+@media (max-width: 710px){
+    .Link-video{
+        width: 500px;
+        height: 500px;
+    }
+
+    .Home-video{
+        border: #e3e3e3 10px solid ;
+
+        
+        }
+
+    .Call-to-action h1{
+            font-size: 2rem;
+    } 
+}
+
+@media (max-width: 510px){
+    .Link-video{
+        width: 300px;
+        height: 300px;
+    }
+
+    .Home-video{
+        border: #e3e3e3 5px solid ;
+
+        
+        }
+
+        .Call-to-action h1{
+            font-size: 1rem;
+    } 
+}

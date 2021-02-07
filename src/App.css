@@ -1,63 +1,9 @@
-.App {
-  display: flex;
-  text-align: center;
-  justify-content: center;
-  overflow: auto;
- 
-
-}
-
-
-
-.App-header {
-  z-index: 2;
-  min-width: 100vw;
-  min-height: 100vh;
+.App-container{
+  width: 100vw;
+  max-width: 980px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #ffffff;
-  font-size: 15px;
-  text-decoration: none;
-  width: 70%;
-}
-
-
-
-.Logo-VLF{
-  height: 40vh;
-
-}
-
-.Sombras{
-
-    text-shadow: 2px 2px rgba(0, 0, 0, 0.5);
-
-}
-
-
-.square{
-  z-index: 0;
-  position: absolute;
-  top: 50vh;
-  left: 20vh;
-  background: #002340;
-  background-attachment: scroll;
-
-  height: 700px;
-  width: 700px;
-  transform: 
-    rotateZ( 143deg )
-    ;
-    
-}
-
-.instalogo{
-  width: 50px;
-}
