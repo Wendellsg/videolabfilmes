@@ -9,7 +9,7 @@
 
 .our-story{
     width: 100%;
-    height: 320px;
+    height: 450px;
     max-width: 980px;
     background-repeat: no-repeat;
     background-position-y: bottom;
@@ -40,13 +40,39 @@
     text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.61);
 }
 
+.Members{
+    margin-top: 30px;
+}
+
+.Members h1{
+
+    font-family: 'Lobster', cursive;
+    font-weight: 500;
+    font-size: 2rem;
+    text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.61);
+}
+
+.cards{
+    display: flex;
+    color: #002340;
+    justify-content: space-evenly;
+
+}
 
 @media (min-width: 700px){
     .our-story{
-        height: 450px;
+        height: 600px;
     }
     .our-story h2{
         font-size: 1.5rem
     }
 
+}
+
+
+@media (max-width: 615px){
+    .cards{
+        align-items: center;
+        flex-direction: column ;
+    }
 }
