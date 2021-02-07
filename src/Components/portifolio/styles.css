@@ -1,0 +1,60 @@
+.portifolio-container{
+    width: 100%;
+    max-width: 980px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    color: #e3e3e3;
+    margin: 20px;
+
+}
+
+.portifolio-container h1{
+    max-width: 50%;
+    font-family: 'Lobster', cursive;
+    font-weight: 500;
+    font-size: 2rem;
+    text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.61);
+}
+
+.videos-cards{  
+    width: 100%;
+    max-width: 980px;
+    display: flex;
+    flex-wrap: wrap;  
+    align-items: center;
+    margin-top: 30px;
+    justify-content: space-evenly;
+}
+
+.card{   
+    width: 400px;
+    height: 225px;
+    border: #e3e3e3 solid 10px;
+    border-radius: 4px;
+    box-shadow: 7px 8px 4px rgba(0, 0, 0, 0.25);
+    margin: 10px;
+}
+
+.portifolio-btn{
+    font-family: 'open-sans', sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    margin-top: 20px;
+    width: 200px;
+    height: 50px;
+    border-radius: 4px;
+    background-color: #002340;;
+    border-style: none;
+    color: #e3e3e3;
+    box-shadow: 7px 8px 4px rgba(0, 0, 0, 0.25);
+    cursor: pointer;
+}
+.portifolio-btn:hover{
+    background-color: #023864;
+    font-size: 15px;
+    text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.61);
+
+}

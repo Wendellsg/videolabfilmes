@@ -1,5 +1,6 @@
 import './styles.css'
 import AboutUs from '../Aboutus/AboutUs'
+import Portifolio from '../portifolio/Portifolio'
 
 function Home(){
     return(
@@ -12,6 +13,7 @@ function Home(){
                     <a href="https://api.whatsapp.com/send?phone=5511981050758&text=Ol%C3%A1%2C%20conheci%20voc%C3%AAs%20pelo%20site!"><button>ME MOSTRE COMO</button></a>
                 </div>
                 <AboutUs/>
+                <Portifolio/>
 
         </article>
     )   
