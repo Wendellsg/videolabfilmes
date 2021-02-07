@@ -1,6 +1,7 @@
 import './styles.css'
 import AboutUs from '../Aboutus/AboutUs'
 import Portifolio from '../portifolio/Portifolio'
+import Clientes from '../clientes/Clientes'
 
 function Home(){
     return(
@@ -14,6 +15,7 @@ function Home(){
                 </div>
                 <AboutUs/>
                 <Portifolio/>
+                <Clientes/>
 
         </article>
     )   
