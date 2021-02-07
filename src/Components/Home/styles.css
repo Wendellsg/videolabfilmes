@@ -54,7 +54,7 @@ box-shadow: 7px 8px 4px rgba(0, 0, 0, 0.25);
     width: 200px;
     height: 50px;
     border-radius: 4px;
-    background-color: #002340;
+    background-color: #7ab5b4;
     border-style: none;
     color: #e3e3e3;
     box-shadow: 7px 8px 4px rgba(0, 0, 0, 0.25);
@@ -63,7 +63,7 @@ box-shadow: 7px 8px 4px rgba(0, 0, 0, 0.25);
 }
 
 .Call-to-action button:hover{
-    background-color: #012f55;
+    background-color: #9feeed;
     font-size: 15px;
     text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.61);
     
