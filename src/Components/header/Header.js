@@ -14,7 +14,7 @@ function AppHeader(){
     return(
         <header className="Header-container">
             <div className="Applogo">
-                <a href="http://localhost:3000/"><img src={logo} alt="VideoLab Filmes"/></a>
+                <a href="https://videolabfilmes.com.br/"><img src={logo} alt="VideoLab Filmes"/></a>
             </div>
             <div className={`App-nav ${show? '':'on' }`}onClick={handleClick}>
 

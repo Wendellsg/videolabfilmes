@@ -1,10 +1,13 @@
 import './App.css';
 import AppHeader from './Components/header/Header'
+import AppFooter from './Components/footer/footer'
+import Home from './Components/Home/Home'
 function App() {
   return (
     <div className="App-container">
       <AppHeader/>
-      <h1>BG?</h1>
+      <Home/>
+      <AppFooter/>
     </div>
   );
 }

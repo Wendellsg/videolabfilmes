@@ -7,14 +7,15 @@
     align-items: center;
     border-radius: 0px 0px 4px 4px;
     box-shadow: 7px 8px 4px rgba(0, 0, 0, 0.25);
-    
 
 }
 
 
 .Applogo img{
     width: 100px;
+    
 }
+
 
 
 .App-nav ul{
@@ -35,6 +36,7 @@
 }
 
 .App-nav li a:hover{
+    transition-duration: 0.3s;
     background-color: #7AB5B4;
     border-radius: 4px;
 }
