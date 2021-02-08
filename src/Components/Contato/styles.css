@@ -1,0 +1,86 @@
+.contato-container{
+
+    width: 100%;
+    max-width: 980px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    color: #e3e3e3;
+    margin: 20px;
+
+
+}
+
+.contato-container h1{
+
+max-width: 50%;
+font-family: 'Lobster', cursive;
+font-weight: 500;
+font-size: 2rem;
+text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.61);
+
+}
+
+.contact-card{
+    margin-top: 20px;
+    width: 80%;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    text-align: center;
+    background-color: #e3e3e3;
+    border-radius: 4px;
+    padding: 5px;
+    box-shadow: 7px 8px 4px rgba(0, 0, 0, 0.25);
+    border: #7AB5B4 dotted 1px;
+
+}
+
+.contact-card h2{
+    width: 80%;
+    font-weight: 800;
+    color: #002340;
+    font-size: 1.5em;
+}
+
+.custom-msg{
+    font-size: 1.5em;
+    width: 80%;
+    align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+
+.text-area{
+    border: #7AB5B4 solid 2px;
+    width: 90%;
+    height: 30px;
+    border-radius: 4px;
+    text-align: center;
+    font-size: 1em;
+}
+
+.wpp-btn{
+    font-weight: 700;
+    color: #e3e3e3;
+    margin-top: 10px;
+    width: 50%;
+    height: 50px;
+    border-radius: 4px;
+    border: none;
+    background-size:cover;
+    font-size: 1rem;
+    background-color: #002340;
+    box-shadow: 7px 8px 4px rgba(0, 0, 0, 0.25);
+}
+
+
+.wpp-btn:hover{
+    background-color: #03457a;
+}
+

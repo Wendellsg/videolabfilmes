@@ -2,6 +2,7 @@ import './styles.css'
 import AboutUs from '../Aboutus/AboutUs'
 import Portifolio from '../portifolio/Portifolio'
 import Clientes from '../clientes/Clientes'
+import Contato from '../Contato/Contato'
 
 function Home(){
     return(
@@ -17,6 +18,7 @@ function Home(){
                 <AboutUs/>
                 <Portifolio/>
                 <Clientes/>
+                <Contato/>
 
         </article>
     )   

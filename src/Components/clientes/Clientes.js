@@ -16,7 +16,7 @@ import PfizerLogo from '../../Assets/clientes/Pfizer_logo.png'
 
 function clientes(){
     return(
-        <div id="Clientes"className="clientes-container">
+        <div className="clientes-container">
             <h1>Clientes</h1>
             <div className="clientes-cards">
                 <Card Name="Fatos Desconhecidos" logo={LogoFatos}/>
@@ -28,6 +28,7 @@ function clientes(){
                 <Card Name="RE/MAX" logo={RemaxLogo}/>
                 <Card Name="Pfizer" logo={PfizerLogo }/>
             </div>
+            <div id="Contato"></div>
         </div>
     )
 };
