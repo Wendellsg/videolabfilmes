@@ -3,6 +3,7 @@ import AboutUs from '../Aboutus/AboutUs'
 import Portifolio from '../portifolio/Portifolio'
 import Clientes from '../clientes/Clientes'
 import Contato from '../Contato/Contato'
+import Lgpd from '../lgpd/Lgdp'
 
 function Home(){
     return(
@@ -19,6 +20,7 @@ function Home(){
                 <Portifolio/>
                 <Clientes/>
                 <Contato/>
+                <Lgpd/>
 
         </article>
     )   
